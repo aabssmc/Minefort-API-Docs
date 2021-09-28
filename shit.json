@@ -38,7 +38,7 @@
         "auth": false,
         "endpoint": "https://api.minehut.com/plugins_public",
         "description": [
-            "Returns all available Minehut plugins."
+            "(Deprecated) Returns all available Minehut plugins."
         ],
         "response": {
             "file": "plugins_public.txt"
