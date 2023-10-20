@@ -1,4 +1,4 @@
-const BASE_RAW = "https://raw.githubusercontent.com/BennyDoesTheStuff/Minehut-API-Documentation/master";
+const BASE_RAW = "https://raw.githubusercontent.com/aabssmc/Minefort-API-Documentation/master";
 let endpoints = [];
 
 window.onload = async (e) => {
