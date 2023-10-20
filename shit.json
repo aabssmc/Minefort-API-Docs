@@ -13,11 +13,11 @@
     },
     {
         "method": "get",
-        "name": "/server/<span class=\"placeholder\">Server ID</span>",
+        "name": "/servers/stats",
         "auth": false,
-        "endpoint": "https://api.minehut.com/server/{server-id}",
+        "endpoint": "https://api.minefort.com/v1/servers/stats",
         "description": [
-            "Returns information about a server using the ID provided."
+            "Gets stats about all servers"
         ],
         "response": {
             "file": "server.txt"
