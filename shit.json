@@ -46,5 +46,43 @@
         "response": {
             "file": "featured.txt"
         }
-    }
+    },
+    {
+        "method": "get",
+        "name": "/avatars/<span class=\"placeholder\">Username</span>",
+        "auth": false,
+        "endpoint": "https://avatars.minefort.com/avatar/{username}",
+        "description": [
+            "Returns all the featured articles on the blog.",
+            "Technically not api but I still thought it was cool"
+        ]
+    },
+    {
+        "method": "get",
+        "name": "/server/versions",
+        "auth": false,
+        "endpoint": "https://api.minefort.com/v1/server/versions",
+        "description": [
+            "Returns all server versions."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/auth/register",
+        "auth": false,
+        "endpoint": "https://avatars.minefort.com/auth/register",
+        "description": [
+            "Registers an account"
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/auth/login",
+        "auth": false,
+        "endpoint": "https://api.minefort.com/v1/auth/login",
+        "description": [
+            "Logs into an account."
+        ]
+    },
+
 ]
