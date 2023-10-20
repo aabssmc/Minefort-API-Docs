@@ -1,14 +1,14 @@
 [
     {
         "method": "get",
-        "name": "/servers",
+        "name": "/support/categories",
         "auth": false,
-        "endpoint": "https://api.minehut.com/servers",
+        "endpoint": "https://api.minefort.com/v1/support/categories",
         "description": [
-            "Returns all online player servers."
+            "Gets all support articles"
         ],
         "response": {
-            "file": "servers.txt"
+            "file": "articles.txt"
         }
     },
     {
