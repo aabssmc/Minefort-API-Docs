@@ -5,10 +5,10 @@
         "auth": false,
         "endpoint": "https://api.minefort.com/v1/support/categories",
         "description": [
-            "Gets all support articles"
+            "Gets all support categories"
         ],
         "response": {
-            "file": "articles.txt"
+            "file": "categories.txt"
         }
     },
     {
