@@ -58,15 +58,6 @@
         ]
     },
     {
-        "method": "get",
-        "name": "/server/versions",
-        "auth": false,
-        "endpoint": "https://api.minefort.com/v1/server/versions",
-        "description": [
-            "Returns all server versions."
-        ]
-    },
-    {
         "method": "post",
         "name": "/auth/register",
         "auth": false,
@@ -83,5 +74,131 @@
         "description": [
             "Logs into an account."
         ]
-    }
+    },
+    {
+        "method": "get",
+        "name": "/server/versions",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/versions",
+        "description": [
+            "Returns all server versions."
+        ]
+    },
+    {
+        "method": "get",
+        "name": "/user/me",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/user/me",
+        "description": [
+            "Returns your minefort account information."
+        ]
+    },
+    {
+        "method": "get",
+        "name": "/user/websocket",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/user/websocket",
+        "description": [
+            "Returns the websocket of the user."
+        ]
+    },
+    {
+        "method": "get",
+        "name": "/payments/methods",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/payments/methods",
+        "description": [
+            "Returns all the payment methods that you can use to buy items."
+        ]
+    },
+    {
+        "method": "get",
+        "name": "/server/icons",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/icons",
+        "description": [
+            "Returns all the usable server icons."
+        ]
+    },
+    {
+        "method": "get",
+        "name": "/user/servers",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/user/servers",
+        "description": [
+            "Returns all the servers of the user."
+        ]
+    },
+    {
+        "method": "get",
+        "name": "/server/<span class=\"placeholder\">Server ID</span>/subusers",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/{server-id}/subusers",
+        "description": [
+            "Returns all the subusers."
+        ]
+    },
+    {
+        "method": "get",
+        "name": "/server/<span class=\"placeholder\">Server ID</span>/files/list?path=root.<span class=\"placeholder\">Path</span>",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/{server-id}/files/list?path=root.{path}",
+        "description": [
+            "Returns a path."
+        ]
+    },
+    {
+        "method": "get",
+        "name": "/server/<span class=\"placeholder\">Server ID</span>/files/read?filePath=root&fileName=<span class=\"placeholder\">File</span>",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/{server-id}/files/read?filePath=root&fileName={file}",
+        "description": [
+            "Returns a file."
+        ]
+    },
+    {
+        "method": "get",
+        "name": "/affiliate/unpaid",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/affiliate/unpaid",
+        "description": [
+            "Returns the unpaid amount of your affiliate."
+        ]
+    },
+    {
+        "method": "get",
+        "name": "/affiliate/stats",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/affiliate/stats",
+        "description": [
+            "Returns the statistics of your affiliate."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/servers/list",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/servers/list",
+        "description": [
+            "Returns all the online servers."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/twofactor/enable",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/twofactor/enable",
+        "description": [
+            "Enables 2FA."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/twofactor/disable",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/twofactor/disable",
+        "description": [
+            "Disables 2FA."
+        ]
+    },
 ]
