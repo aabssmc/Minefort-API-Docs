@@ -175,6 +175,15 @@
         ]
     },
     {
+        "method": "get",
+        "name": "/server/<span class=\"placeholder\">Server ID</span>/subusers",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/{server-id}/subusers",
+        "description": [
+            "Returns all the subusers."
+        ]
+    },
+    {
         "method": "post",
         "name": "/servers/list",
         "auth": true,
@@ -201,4 +210,193 @@
             "Disables 2FA."
         ]
     },
+    {
+        "method": "post",
+        "name": "/user/billing",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/user/billing",
+        "description": [
+            "Sets your billing information."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/user/delete",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/user/delete",
+        "description": [
+            "Deletes your minefort account."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/user/password",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/user/password",
+        "description": [
+            "Sets your minefort password."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/feedback/submit",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/feedback/submit",
+        "description": [
+            "Sends feedback to the minefort staff members."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/server/<span class=\"placeholder\">Server ID</span>/icon",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/{server-id}/icon",
+        "description": [
+            "Sets the icon of the server."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/server/<span class=\"placeholder\">Server ID</span>/start",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/{server-id}/start",
+        "description": [
+            "Starts the server."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/server/<span class=\"placeholder\">Server ID</span>/stop",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/{server-id}/stop",
+        "description": [
+            "Stops the server."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/server/<span class=\"placeholder\">Server ID</span>/restart",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/{server-id}/restart",
+        "description": [
+            "Restarts the server."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/server/<span class=\"placeholder\">Server ID</span>/kill",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/{server-id}/kill",
+        "description": [
+            "Kills/Force stops your server."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/server/<span class=\"placeholder\">Server ID</span>/version",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/{server-id}/version",
+        "description": [
+            "Sets a version of the server. (eg: PaperMC 1.19.4)"
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/server/<span class=\"placeholder\">Server ID</span>/properties",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/{server-id}/properties",
+        "description": [
+            "Sets the server.properties of the server."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/server/<span class=\"placeholder\">Server ID</span>/name",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/{server-id}/name",
+        "description": [
+            "Sets the name of the server (if its avaliable)."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/server/<span class=\"placeholder\">Server ID</span>/category",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/{server-id}/category",
+        "description": [
+            "Sets the category of the server."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/server/<span class=\"placeholder\">Server ID</span>/wakeup",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/{server-id}/wakeup",
+        "description": [
+            "Wakes up a server (if its hibernating)."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/server/<span class=\"placeholder\">Server ID</span>/console",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/{server-id}/console",
+        "description": [
+            "The console of the server."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/server/<span class=\"placeholder\">Server ID</span>/backups/create",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/{server-id}/backups/create",
+        "description": [
+            "Creates a backup."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/server/<span class=\"placeholder\">Server ID</span>/backups/restore",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/{server-id}/backups/restore",
+        "description": [
+            "Restores a backup."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/server/<span class=\"placeholder\">Server ID</span>/subsusers/invite",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/{server-id}/subusers/invite",
+        "description": [
+            "Invites a subuser."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/plugins/browse",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/plugins/browse",
+        "description": [
+            "Returns all the plugins on the plugin page."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/server/availability",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/server/availability",
+        "description": [
+            "Checks if a server name is avaliable."
+        ]
+    },
+    {
+        "method": "post",
+        "name": "/auth/logout",
+        "auth": true,
+        "endpoint": "https://api.minefort.com/v1/auth/logout",
+        "description": [
+            "Logs out of the account (if you are logged in)."
+        ]
+    }
 ]
