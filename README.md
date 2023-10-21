@@ -1,8 +1,8 @@
 # Minefort API Documentation
 
-Documentation of API endpoints available on the MineFort API located [here](https://api.minehut.com).
+Documentation of API endpoints available on the MineFort API located [here](https://api.minefort.com).
 
-- View the docs by clicking [here](https://minefort.aabss.lol) or visiting https://minefort.aabss.lol
+- View the docs by clicking [here](https://minefortapi.aabss.lol) or visiting https://minefortapi.aabss.lol
 
 ## Contributing
 
